@@ -1,0 +1,35 @@
+
+.contact{
+    background-image: url('../../../images/appointment-bg.png');
+    height: 650px;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    z-index: -2;
+
+}
+.contact::before{
+    background: rgb(36, 41, 73);
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    display: block;
+    top: 0;
+    opacity: .9;
+    z-index: -1;
+   
+}
+.contact-form input{
+    width: 85%;
+    height: 3em;
+    border-radius: 0%;
+    margin-left: 7.5%;
+}
+.contact-form textarea{
+    width: 85%;
+    height: 150px;
+    border-radius: 0%;
+    margin-left: 7.5%;
+}
+ 
